@@ -10,7 +10,9 @@ module.exports = {
     filename: "[name].js",
   },
   plugins: [
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin({
+      template: path.resolve(process.cwd(), 'public', 'index.html')
+    })
   ],
   devtool: "source-map",
   target: "web",
@@ -25,5 +27,6 @@ module.exports = {
     https: false,
     noInfo: true,
     port: 1234,
+    open: true,
   },
 };

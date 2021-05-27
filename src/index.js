@@ -1,1 +1,1 @@
-document.body.innerHTML = 'hello taxonomic tree of all';
+(document.querySelector('#root') || document.body).innerHTML = 'hello taxonomic tree of all';
