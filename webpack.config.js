@@ -9,6 +9,31 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].js",
   },
+
+  module: {
+    rules: [
+      {
+        test: /\.less$/i,
+        use: [
+          {
+            loader: "style-loader",
+          },
+          {
+            loader: "css-loader",
+          },
+          {
+            loader: "less-loader",
+            options: {
+              lessOptions: {
+                strictMath: true,
+              },
+            }
+          }
+        ],
+      },
+    ],
+  },
+
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(process.cwd(), 'public', 'index.html')
