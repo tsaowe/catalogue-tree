@@ -1164,6 +1164,11 @@ dot-case@^3.0.4:
     no-case "^3.0.4"
     tslib "^2.0.3"
 
+downloadjs@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.npm.taobao.org/downloadjs/download/downloadjs-1.4.7.tgz#f69f96f940e0d0553dac291139865a3cd0101e3c"
+  integrity sha1-9p+W+UDg0FU9rCkROYZaPNAQHjw=
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/ee-first/download/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -1666,6 +1671,11 @@ html-minifier-terser@^5.0.1:
     param-case "^3.0.3"
     relateurl "^0.2.7"
     terser "^4.6.3"
+
+html-to-image@^1.6.2:
+  version "1.6.2"
+  resolved "https://registry.nlark.com/html-to-image/download/html-to-image-1.6.2.tgz#9d444424cc638df13db5c7be810ac0d2962f5edd"
+  integrity sha1-nUREJMxjjfE9tce+gQrA0pYvXt0=
 
 html-webpack-plugin@^5.3.1:
   version "5.3.1"

@@ -20,6 +20,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "d3": "^6.7.0"
+    "d3": "^6.7.0",
+    "downloadjs": "^1.4.7",
+    "html-to-image": "^1.6.2"
   }
 }
